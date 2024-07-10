@@ -9,7 +9,7 @@ import { Button } from "../components/Button";
 export function Home() {
   const [index, setIndex] = useState(0);
 
-  const handleSelect = (selectedIndex: number, e: any) => {
+  const handleSelect = (selectedIndex: number) => {
     setIndex(selectedIndex);
   };
 
