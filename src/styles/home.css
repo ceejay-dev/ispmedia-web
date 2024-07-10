@@ -1,0 +1,111 @@
+.main-container {
+    background-image: url('../assets/carrosel2.jpeg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding: 15px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  a:hover {
+    color: white;
+  }
+  
+  .carousel-container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+  
+  .img {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .nav {
+    position: absolute;
+    justify-content: center;
+    font-weight: bolder;
+    top: 10px;
+    z-index: 2;
+    left: 0;
+    right: 0;
+  }
+  
+  a:hover {
+    color: wheat;
+  }
+  
+  .link-signup:hover {
+    color: black;
+  }
+  
+  .link-signup {
+    color: black;
+  }
+  
+  .botao-nav2:hover {
+    background-color: white;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+  
+  .botao-nav:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .botao-nav {
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+  }
+  
+  .login-container {
+    border: 1px solid white;
+    border-radius: 25px;
+    right: 7%;
+    position: absolute;
+  }
+  
+  .login-container:hover {
+    background-color: white;
+  }
+  
+  .login-container a:hover {
+    color: black;
+  }
+  
+  /* Estilos aplicados na página inicial quando o usuário está logado */
+  .navegacao {
+    border: 1px solid white;
+    border-radius: 25px;
+    right: 7%;
+    position: absolute;
+    background-color: white;
+  }
+  
+  .navegacao:hover {
+    background-color: white;
+  }
+  
+  .button-image {
+    width: 25px;
+  }
+  
